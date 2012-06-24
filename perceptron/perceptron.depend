@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1330281935 source:c:\documents and settings\administrator\my documents\dropbox\tps isima\projet\perceptron\fichier.c
+	<stdio.h>
+	<stdlib.h>
+	"fichier.h"
+
+1330269724 source:c:\documents and settings\administrator\my documents\dropbox\tps isima\projet\perceptron\correction.c
+
+1330273477 source:c:\documents and settings\administrator\my documents\dropbox\tps isima\projet\perceptron\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fichier.h"
+
+1330276130 c:\documents and settings\administrator\my documents\dropbox\tps isima\projet\perceptron\fichier.h
+
+1330377212 source:c:\users\fabien\dropbox\tps isima\projet\perceptron\fichier.c
+	<stdio.h>
+	<stdlib.h>
+	"fichier.h"
+
+1330377233 c:\users\fabien\dropbox\tps isima\projet\perceptron\fichier.h
+
+1330377239 source:c:\users\fabien\dropbox\tps isima\projet\perceptron\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fichier.h"
+	"correction.h"
+
+1330298533 source:c:\users\fabien\dropbox\tps isima\projet\perceptron\correction.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"fichier.h"
+	"correction.h"
+
+1330282210 c:\users\fabien\dropbox\tps isima\projet\perceptron\correction.h
+

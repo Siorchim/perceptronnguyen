@@ -1,0 +1,42 @@
+#ifndef FICHIER_H
+#define FICHIER_H
+
+typedef struct baseApprentissage{
+    double ** x;
+    int n;
+    int p;
+    double * c;
+    double * w;
+}base_t;
+
+typedef struct PMC_t{
+    double ** x;
+    int n;
+    int p;
+    int s;
+    double * c;
+    double ** w;
+    int *** connexions;
+}basePMC;
+
+base_t * lireFichier(char * nomfichier);
+
+base_t * lireFichier2(char * nomfichier);
+
+void afficherW(base_t * data);
+
+void freeBase(base_t *data);
+
+void initW(base_t * data);
+
+double produitScalaire(double * vect1,double * vect2,int size);
+
+double ** sommeMatrice(double ** matrice1,double ** matrice2,int row,int colulms);
+
+double ** produitVecteurVecteur(double * vect1,double *vect2,int size);
+
+double* sommeVecteurs(double * vect1,double * vect2,int size);
+
+double * produitMatriceVecteur(double ** matrice,double * vect,int row,int columns);
+
+#endif

@@ -1,0 +1,20 @@
+/* Variables globales */
+unsigned long tab_couleurs_mandelbrot[256];
+Colormap colormap_mandelbrot;
+
+/* Fonction d'allocation */
+
+int i;
+XColor C;
+
+colormap_mandelbrot = XCreateColormap(dpy, win_mandelbrot, visual, AllocNone);
+
+for(i = 0 ; i < 256 ; i++)
+{
+	C.red = 65535-i*256;
+	C.green = 0;
+	C.blue = i*256;
+	/* Pour aller du rouge au bleu */
+	XAllocColor(dpy,colormap_mandelbrot, &C);
+	tab_couleurs_mandelbrot[i] = C.pixel;
+}
